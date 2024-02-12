@@ -1,4 +1,6 @@
 /*  ============= WEB BROWSER RESETS ============ */
+body { background-color: purple; }
+body { padding: 4% 20% }
 * { margin: 0; padding: 0; border: none }
 *, *::before, *::after { box-sizing: border-box }
 html { height: 100%; font-size: 100%; font: inherit; vertical-align: baseline;
@@ -10,6 +12,15 @@ img { width: 100%; height: auto; display: block }
 input, button, textarea, select { font: inherit }
 
 /* ================= ENDS ================ */
+/* Desktops */
+@media (min-width: 768px) {
+    body { padding: 4% 20% }
+ }
+ 
+ /* Mobiles */
+ @media (max-width: 767px) {
+    body { padding: 8% 5% }
+ }
 
 h1 {
     font-size: 84px;
@@ -17,6 +28,7 @@ h1 {
     text-align: center;
     font-weight: normal;
     letter-spacing: 4px;
+    color: white;
 }
 
 h2 {
@@ -24,6 +36,7 @@ h2 {
     margin-bottom: 4px;
     margin-top: 54px;
     text-transform: uppercase;
+    color: white;
 }
 
 p {
@@ -32,3 +45,4 @@ p {
     line-height: 1.6;
     margin-bottom: 20px;
 }
+a { color: white; }

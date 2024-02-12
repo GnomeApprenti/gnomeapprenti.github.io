@@ -1,1 +1,0 @@
-# gnomeapprenti.github.io
